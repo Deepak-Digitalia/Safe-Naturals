@@ -1,0 +1,89 @@
+
+
+.footer_img{
+    margin: 30px;
+}
+
+.safe-footer{
+    background-color:  #005891;
+
+}
+
+.location_icon{
+    width: 30px;
+    height: 30px;
+
+}
+.fot_link{
+    color: white;
+}
+.fot_link li{
+    list-style: none;
+    margin-top: 10px;
+}
+.our_policy{
+    color: white;
+}
+.our_policy li{
+    list-style: none;
+    margin-top: 10px;
+}
+.custom_care{
+    color: white;
+}
+.custom_care li{
+    list-style: none;
+    margin-top: 10px;
+}
+.news_letter{
+    color: white;
+}
+.news_letter {
+    color: white;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.news_letter input {
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px; /* Add padding to prevent overlap with icons */
+    border-color: transparent !important;
+    width: 100%; /* Ensure it takes full width */
+}
+
+.news_letter .fot_inp_mail {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    pointer-events: none; /* So it doesn't block input */
+}
+
+.submit-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+}
+
+.news_letter .fot_mail_arrow {
+    width: 17px; /* Adjust size as needed */
+    height: 17px; /* Adjust size as needed */
+}
+
+
+
+
+    .location_icon{
+        width: 30px;
+        height: 30px;
+    margin-right: 20px;
+    } 
+

@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    font-family: "Inter", sans-serif !important;
+}
+/* home page css  */
+
+
+.ban-sec{
+    margin: 10px;
+}
+.ban-con{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), /* Darker gradient with higher opacity */
+        rgba(0, 0, 0, 0.5) /* Apply the same dark gradient */
+      ),
+      url(../img/ban-2.png);
+    background-size: cover;
+
+     border-radius: 12px;
+     padding: 20px 8px 20px 20px;
+   
+
+}
+
+.shop{
+    color: white;
+    font-size: 2rem ;
+    font-weight: bold;
+
+
+}
+
+.ban-head{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.ban-txt{
+    color: white;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-top: 0px !important;
+}
+
+.ban-sec span{
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    font-size: 4rem;
+    font-weight: bold;
+    color:  #8DC63F;
+
+
+}
+
+.deals-wrapper{
+    display: inline-flex;
+    justify-content: center; 
+}
+@media (max-width:640px){
+    .deals-wrapper{
+        display: block;
+        justify-content: center; 
+    }
+}
+.bor-row{
+   margin: 0;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 8px;
+}
+ .deals-crd{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #005891;
+     border-radius: 15px;
+    padding: 18px;
+    margin-right: 10px;
+
+ }
+
+ .deals-crd p{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 15px;
+ }
+
+ @media (max-width:640px){
+    .deals-crd p {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+ }
+
+ /* category section css starts  */
+
+.cat-sec{
+    margin-top: 30px;
+    padding: 12px;
+}
+
+.cat-heading-por {
+ text-align: center;
+
+}
+.cat-heading-por h2,p{
+    font-weight: 600;
+}
+
+
+ .cat-crd{
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: -1.89px 1.89px 10.37px 0px #00000040;
+   text-align: center;
+ }
+ .cat-crd h5{
+    font-size: 35px;
+    font-weight: 600;
+ }
+
+/* !!!!!! special deals section css starts !!!!!!!!!!!!!! */
+.spl-deal-sec{
+    background-color: #005891;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+.spl-crd{
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: -1.89px 1.89px 10.37px 0px #00000040;
+   text-align: center; 
+}
+.spl-crd span{
+    background-image: url(../img/spl-deal-ban.png);
+    background-size: cover;
+    padding: 9px 25px 10px 10px;
+    font-size: 15px;
+    position: relative;
+    right: 107px;
+    top: 35px;
+    color: white;
+}
+@media (max-width:374px){
+    .spl-crd span{
+        background-image: url(../img/spl-deal-ban.png);
+        background-size: cover;
+        padding: 9px 25px 10px 10px;
+        font-size: 15px;
+        position: relative;
+        right: 70px;
+        top: 10px;
+        color: white;
+    } 
+}
+.spl-crd p{
+    text-align: left !important;
+    margin-bottom: 0px;
+}
+.spl-crd .pricing_wrapper strike{
+    margin-right: 6px;
+    font-size: 17px;
+    color: #9B9B9B;
+}
+.spl-crd .pricing_wrapper div{
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.spl-crd button{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #005891;
+    color: white;
+    padding: 9px;
+    border-radius: 30px;
+    border: none;
+    width: 225px;
+
+}
+
+/* !!!!!!!!!!!!!!owl carosel css !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent !important;
+    color: #FFF;
+    text-decoration: none;
+}
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    bottom: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+.owl_car{
+    margin-top: 60px;
+}
+@media (max-width:374px){
+    .owl-theme .owl-nav {
+        margin-top: 10px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+        bottom: 458px !important;
+        display: flex;
+        justify-content: space-between;
+    } 
+}
+@media (max-width:424px){
+    .owl-theme .owl-nav {
+        margin-top: 10px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+        bottom: 515px ;
+        display: flex;
+        justify-content: space-between;
+    } 
+}
+
+@media (min-width:425px) and (max-width:640px){
+    .owl-theme .owl-nav {
+        margin-top: 10px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+        bottom: 560px ;
+        display: flex;
+        justify-content: space-between;
+    } 
+}
+@media  (max-width:990px){
+    .owl-theme .owl-nav {
+        margin-top: 10px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+        bottom: 565px ;
+        display: flex;
+        justify-content: space-between;
+    } 
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!! products section css !!!!!!!!!!!!!!!!!!!!!!!!! */
+.products_sec{
+    margin: 40px 0px;
+}
+.prt-crd{
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: -1.89px 1.89px 10.37px 0px #00000040;
+   text-align: center; 
+}
+.prt-crd span{
+    background-image: url(../img/spl-deal-ban.png);
+    background-size: cover;
+    padding: 9px 25px 10px 10px;
+    font-size: 15px;
+    position: relative;
+    right: 107px;
+    top: 35px;
+    color: white;
+}
+
+.prt-crd p{
+    text-align: left !important;
+    margin-bottom: 0px;
+}
+.prt-crd .pricing_wrapper strike{
+    margin-right: 6px;
+    font-size: 17px;
+    color: #9B9B9B;
+}
+.prt-crd .pricing_wrapper div{
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.prt-crd button{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #005891;
+    color: white;
+    padding: 9px;
+    border-radius: 30px;
+    border: none;
+    width: 225px;
+
+}
+
+@media (min-width:0px) and  (max-width:374px){
+    .prt-crd span {
+        background-image: url(../img/spl-deal-ban.png);
+        background-size: cover;
+        padding: 9px 25px 10px 10px;
+        font-size: 15px;
+        position: relative;
+        right: 100px !important;
+        top: 0px !important;
+        color: white;
+    }
+}
+@media (min-width:375px) and  (max-width:424px){
+    .prt-crd span {
+        background-image: url(../img/spl-deal-ban.png);
+        background-size: cover;
+        padding: 9px 25px 10px 10px;
+        font-size: 15px;
+        position: relative;
+        right: 18px !important;
+        top: -80px !important;
+        color: white;
+    }
+}
+@media (max-width:640px){
+    .prt-crd span {
+        background-image: url(../img/spl-deal-ban.png);
+        background-size: cover;
+        padding: 9px 25px 10px 10px;
+        font-size: 15px;
+        position: relative;
+        right: 50px ;
+        top: -75px;
+        color: white;
+    }
+}
+@media (min-width:767px) and  (max-width:900px){
+    .prt-crd span {
+        background-image: url(../img/spl-deal-ban.png);
+        background-size: cover;
+        padding: 9px 25px 10px 10px;
+        font-size: 15px;
+        position: relative;
+        right: 15px;
+        top: -50px;
+        color: white;
+    }
+}

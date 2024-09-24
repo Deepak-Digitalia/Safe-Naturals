@@ -1,0 +1,114 @@
+
+.nav_logo{
+  height: 50px !important;
+   margin-left: 20px;
+   margin-right: 50px;
+}
+@media (max-width:1200px){
+  .nav_logo{
+    /* height: 50px ; */
+     margin-left: 20px;
+     margin-right: 20px !important;
+  
+}
+}
+
+
+
+
+.navbar-safe{
+    background-color: white;
+    padding: 0px 15px;
+    box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.2);
+}
+.logo_con {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-around !important;
+  }
+@media (min-width:767px){
+    .int_nav{
+        width: 180px !important;
+        border-radius: 30px !important;
+        border: none !important;
+      }
+}
+  
+@media (min-width:991px){
+    .int_nav{
+        width: 180px !important;
+        border-radius: 30px !important;
+        border: none !important;
+      }
+    .int_row{
+        margin-right: 25px !important;
+      }
+
+      .nav-lnk_con .nav-link,
+.nav-lnk_con .dropdown,
+.nav-lnk_con button {
+  margin-right: 5px !important; /* Adjust the margin as needed */
+}
+
+.nav-lnk_con {
+  display: flex;
+  justify-content: space-evenly !important;
+  align-items: center;
+}
+
+}
+
+@media (min-width:1400px){
+  .nav-lnk_con .nav-link,
+  .nav-lnk_con .dropdown,
+  .nav-lnk_con button {
+    margin-right: 20px !important; /* Adjust the margin as needed */
+  } 
+  .int_nav{
+    width: 350px !important;
+    border-radius: 30px !important;
+    border: none !important;
+  }
+}
+
+
+.login_btn{
+    background-color: #005891 !important;
+    border: none;
+    border-radius: 50px !important;
+    width: 150px;
+}
+
+.int_icon_wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid #005891 !important;
+}
+@media (max-width:1200px){
+  .int_icon_wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid #005891 !important;
+    margin-top: 10px !important;
+}
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: 14px !important;
+  font-weight: bold !important;
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+}
+.int_icon{
+margin: auto;
+}
+  
